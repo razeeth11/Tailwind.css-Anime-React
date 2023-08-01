@@ -1,12 +1,12 @@
 import "./App.css";
 import { AppBar } from "./AppBar";
-import { NarutoCharacters } from "./NarutoCharacters";
+import { SpaceMovies } from "./SpaceMovies";
 
 function App() {
   return (
     <div>
       <AppBar />
-      <NarutoCharacters />
+      <SpaceMovies />
     </div>
   );
 }

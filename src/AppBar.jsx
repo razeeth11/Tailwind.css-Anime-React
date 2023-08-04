@@ -1,4 +1,4 @@
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export function AppBar() {
   const navigate = useNavigate();
@@ -14,7 +14,7 @@ export function AppBar() {
           <li onClick={() => navigate("/space-movies")}>
             <a
               href="#"
-              className="md:text-[15px] md:px-[20px] md:py-[4px] px-[10px] py-[4px] hover:text-red-500 cursor-pointer hover:border-b-[5px] border-red-500"
+              className="focus:border-b-[5px] focus:text-red-500 md:text-[15px] md:px-[20px] md:py-[4px] px-[10px] py-[4px] hover:text-red-500 cursor-pointer hover:border-b-[5px] border-red-500"
             >
               Space
             </a>
@@ -22,39 +22,39 @@ export function AppBar() {
           <li onClick={() => navigate("/reality-movies")}>
             <a
               href="#"
-              className="md:text-[15px] md:px-[20px] md:py-[4px] px-[10px] py-[4px] hover:text-red-500 cursor-pointer hover:border-b-[5px] border-red-500"
+              className="focus:border-b-[5px] focus:text-red-500 md:text-[15px] md:px-[20px] md:py-[4px] px-[10px] py-[4px] hover:text-red-500 cursor-pointer hover:border-b-[5px] border-red-500"
             >
               Reality
             </a>
           </li>
-          <li>
+          <li onClick={() => navigate("/time-movies")}>
             <a
               href="#"
-              className="md:text-[15px] md:px-[20px] md:py-[4px] px-[10px] py-[4px] hover:text-red-500 cursor-pointer hover:border-b-[5px] border-red-500"
+              className="focus:border-b-[5px] focus:text-red-500 md:text-[15px] md:px-[20px] md:py-[4px] px-[10px] py-[4px] hover:text-red-500 cursor-pointer hover:border-b-[5px] border-red-500"
             >
               Time
             </a>
           </li>
-          <li>
+          <li onClick={() => navigate("/power-movies")}>
             <a
               href="#"
-              className="md:text-[15px] md:px-[20px] md:py-[4px] px-[10px] py-[4px] hover:text-red-500 cursor-pointer hover:border-b-[5px] border-red-500"
+              className="focus:border-b-[5px] focus:text-red-500 md:text-[15px] md:px-[20px] md:py-[4px] px-[10px] py-[4px] hover:text-red-500 cursor-pointer hover:border-b-[5px] border-red-500"
             >
               Powers
             </a>
           </li>
-          <li>
+          <li onClick={() => navigate("/soul-movies")}>
             <a
               href="#"
-              className="md:text-[15px] md:px-[20px] md:py-[4px] px-[10px] py-[4px] hover:text-red-500 cursor-pointer hover:border-b-[5px] border-red-500"
+              className="focus:border-b-[5px] focus:text-red-500 md:text-[15px] md:px-[20px] md:py-[4px] px-[10px] py-[4px] hover:text-red-500 cursor-pointer hover:border-b-[5px] border-red-500"
             >
               Soul
             </a>
           </li>
-          <li>
+          <li onClick={() => navigate("/mind-movies")}>
             <a
               href="#"
-              className="md:text-[15px] md:px-[20px] md:py-[4px] px-[10px] py-[4px] hover:text-red-500 cursor-pointer hover:border-b-[5px] border-red-500"
+              className="focus:border-b-[5px] focus:text-red-500 md:text-[15px] md:px-[20px] md:py-[4px] px-[10px] py-[4px] hover:text-red-500 cursor-pointer hover:border-b-[5px] border-red-500"
             >
               Mind
             </a>
